@@ -21,3 +21,23 @@ Projeto do módulo 3 da trilha HTML da DIO. Criamos uma enciclopédia estilo Wik
 Abra o arquivo `index.html` em qualquer navegador e navegue pelas seções do site.
 
 Desenvolvido para fins educacionais com ❤️.
+
+
+## 📋 Descrição
+
+Descreva aqui o conteúdo desta seção.
+
+
+## 📦 Instalação
+
+Descreva aqui o conteúdo desta seção.
+
+
+## 💻 Uso
+
+Descreva aqui o conteúdo desta seção.
+
+
+## 📄 Licença
+
+Descreva aqui o conteúdo desta seção.
