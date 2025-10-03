@@ -1,109 +1,105 @@
+"""# Enciclopédia Viking
 
-# Enciclopédia Viking
+[![HTML](https://img.shields.io/badge/Language-HTML-orange.svg)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Projeto do módulo 3 da trilha HTML da DIO. Criamos uma enciclopédia estilo Wikipédia com o tema "Vikings".
+## 🇧🇷 Português
 
-## 🖼️ Imagem Hero
+### 📋 Descrição
 
-![Viking Encyclopedia Hero Image](imagens/hero_image.png)
+Este projeto é uma enciclopédia interativa sobre a cultura Viking, desenvolvida como parte do módulo 3 da trilha de HTML da DIO. O objetivo foi recriar a experiência de uma enciclopédia online, similar à Wikipédia, focando em um layout moderno e responsivo. O conteúdo abrange diversos aspectos da vida Viking, desde sua história e personagens notáveis até suas batalhas e rica cultura.
 
-## Páginas incluídas
+### 🖼️ Imagem Hero
 
-- `index.html`: Introdução ao mundo viking
-- `personagens.html`: Personagens históricos como Ragnar e Lagertha
-- `batalhas.html`: Batalhas famosas e conquistas
-- `cultura.html`: Cultura, religião e costumes
+![Viking Encyclopedia Hero Image](assets/imagens/hero_image.png)
 
-## Recursos utilizados
+### 🗺️ Diagrama de Arquitetura
+
+![Diagrama de Arquitetura](assets/diagrams/architecture_diagram.png)
+
+### Páginas incluídas
+
+- `src/index.html`: Introdução ao mundo viking
+- `src/personagens.html`: Personagens históricos como Ragnar e Lagertha
+- `src/batalhas.html`: Batalhas famosas e conquistas
+- `src/cultura.html`: Cultura, religião e costumes
+
+### Recursos utilizados
 
 - Tags semânticas do HTML5 (`<header>`, `<main>`, `<section>`, `<article>`, `<footer>`)
 - Tabelas
 - Listas ordenadas e não ordenadas
 - Navegação entre páginas com `<nav>`
 
-## Como usar
+### 📦 Instalação
 
-Abra o arquivo `index.html` em qualquer navegador e navegue pelas seções do site.
-
-Desenvolvido para fins educacionais com ❤️.
-
-## 📋 Descrição
-
-Este projeto é uma enciclopédia interativa sobre a cultura Viking, desenvolvida como parte do módulo 3 da trilha de HTML da DIO. O objetivo foi recriar a experiência de uma enciclopédia online, similar à Wikipédia, focando em um layout moderno e responsivo. O conteúdo abrange diversos aspectos da vida Viking, desde sua história e personagens notáveis até suas batalhas e rica cultura.
-
-## 📦 Instalação
-
-Não é necessária nenhuma instalação. Basta clonar o repositório e abrir o arquivo `index.html` em seu navegador preferido.
+Não é necessária nenhuma instalação. Basta clonar o repositório e abrir o arquivo `src/index.html` em seu navegador preferido.
 
 ```bash
 git clone https://github.com/galafis/-Recriando-o-Wikipedia-com-Layout-Moderno.git
 cd -Recriando-o-Wikipedia-com-Layout-Moderno
 ```
 
-## 💻 Uso
+### 💻 Uso
 
-Após abrir o `index.html`, você pode navegar pelas diferentes seções da enciclopédia utilizando o menu de navegação. Explore as páginas sobre personagens, batalhas e cultura para aprender mais sobre os Vikings.
+Após abrir o `src/index.html`, você pode navegar pelas diferentes seções da enciclopédia utilizando o menu de navegação. Explore as páginas sobre personagens, batalhas e cultura para aprender mais sobre os Vikings.
 
-## 📄 Licença
+### 📄 Licença
 
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
 
-## Autor
+### Autor
 
 **Gabriel Demetrios Lafis**
 
 ---
 
-# Viking Encyclopedia
+## 🇬🇧 English
 
-Project from module 3 of DIO's HTML track. We created a Wikipedia-style encyclopedia with a "Vikings" theme.
+### 📋 Description
 
-## 🖼️ Hero Image
+This project is an interactive encyclopedia about Viking culture, developed as part of module 3 of DIO's HTML track. The goal was to recreate the experience of an online encyclopedia, similar to Wikipedia, focusing on a modern and responsive layout. The content covers various aspects of Viking life, from their history and notable figures to their battles and rich culture.
 
-![Viking Encyclopedia Hero Image](imagens/hero_image.png)
+### 🖼️ Hero Image
 
-## Included Pages
+![Viking Encyclopedia Hero Image](assets/imagens/hero_image.png)
 
-- `index.html`: Introduction to the Viking world
-- `personagens.html`: Historical figures like Ragnar and Lagertha
-- `batalhas.html`: Famous battles and conquests
-- `cultura.html`: Culture, religion, and customs
+### 🗺️ Architecture Diagram
 
-## Resources Used
+![Architecture Diagram](assets/diagrams/architecture_diagram.png)
+
+### Included Pages
+
+- `src/index.html`: Introduction to the Viking world
+- `src/personagens.html`: Historical figures like Ragnar and Lagertha
+- `src/batalhas.html`: Famous battles and conquests
+- `src/cultura.html`: Culture, religion, and customs
+
+### Resources Used
 
 - HTML5 semantic tags (`<header>`, `<main>`, `<section>`, `<article>`, `<footer>`)
 - Tables
 - Ordered and unordered lists
 - Page navigation with `<nav>`
 
-## How to Use
+### 📦 Installation
 
-Open the `index.html` file in any browser and navigate through the site sections.
-
-Developed for educational purposes with ❤️.
-
-## 📋 Description
-
-This project is an interactive encyclopedia about Viking culture, developed as part of module 3 of DIO's HTML track. The goal was to recreate the experience of an online encyclopedia, similar to Wikipedia, focusing on a modern and responsive layout. The content covers various aspects of Viking life, from their history and notable figures to their battles and rich culture.
-
-## 📦 Installation
-
-No installation is required. Simply clone the repository and open the `index.html` file in your preferred browser.
+No installation is required. Simply clone the repository and open the `src/index.html` file in your preferred browser.
 
 ```bash
 git clone https://github.com/galafis/-Recriando-o-Wikipedia-com-Layout-Moderno.git
 cd -Recriando-o-Wikipedia-com-Layout-Moderno
 ```
 
-## 💻 Usage
+### 💻 Usage
 
-After opening `index.html`, you can navigate through the different sections of the encyclopedia using the navigation menu. Explore the pages about characters, battles, and culture to learn more about the Vikings.
+After opening `src/index.html`, you can navigate through the different sections of the encyclopedia using the navigation menu. Explore the pages about characters, battles, and culture to learn more about the Vikings.
 
-## 📄 License
+### 📄 License
 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
-## Author
+### Author
 
 **Gabriel Demetrios Lafis**
-
+"""

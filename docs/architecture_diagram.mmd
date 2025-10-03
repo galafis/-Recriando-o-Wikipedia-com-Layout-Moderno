@@ -1,0 +1,10 @@
+graph TD
+    A[Usuário] -->|Acessa| B(Navegador)
+    B -->|Solicita| C[index.html]
+    C -->|Carrega| D[personagens.html]
+    C -->|Carrega| E[batalhas.html]
+    C -->|Carrega| F[cultura.html]
+    C -->|Usa| G[assets/imagens/vikings.jpeg]
+    D -->|Usa| G
+    E -->|Usa| G
+    F -->|Usa| G
