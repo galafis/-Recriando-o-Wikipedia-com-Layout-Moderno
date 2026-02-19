@@ -15,6 +15,29 @@ Este projeto é uma enciclopédia interativa sobre a cultura Viking, desenvolvid
 
 ### 🗺️ Diagrama de Arquitetura
 
+```mermaid
+graph TD
+    A[Enciclopédia Viking] --> B[Navegação Global]
+    B --> B1[Menu Principal nav]
+    A --> C[Páginas do Site]
+    C --> P1[index.html · Introdução]
+    C --> P2[personagens.html · Figuras Históricas]
+    C --> P3[batalhas.html · Batalhas e Conquistas]
+    C --> P4[cultura.html · Cultura e Religião]
+    P1 --> D[Estrutura de Página]
+    P2 --> D
+    P3 --> D
+    P4 --> D
+    D --> D1[header · Cabeçalho]
+    D --> D2[main · Conteúdo Principal]
+    D --> D3[footer · Rodapé]
+    D2 --> E[Elementos HTML5]
+    E --> E1[section · Seções]
+    E --> E2[article · Artigos]
+    E --> E3[table · Tabelas]
+    E --> E4[ol · ul · Listas]
+```
+
 ![Diagrama de Arquitetura](assets/diagrams/architecture_diagram.png)
 
 ### Páginas incluídas
@@ -65,6 +88,29 @@ This project is an interactive encyclopedia about Viking culture, developed as p
 ![Viking Encyclopedia Hero Image](assets/imagens/hero_image.png)
 
 ### 🗺️ Architecture Diagram
+
+```mermaid
+graph TD
+    A[Viking Encyclopedia] --> B[Global Navigation]
+    B --> B1[Main Menu nav]
+    A --> C[Site Pages]
+    C --> P1[index.html · Introduction]
+    C --> P2[personagens.html · Historical Figures]
+    C --> P3[batalhas.html · Battles & Conquests]
+    C --> P4[cultura.html · Culture & Religion]
+    P1 --> D[Page Structure]
+    P2 --> D
+    P3 --> D
+    P4 --> D
+    D --> D1[header · Page Header]
+    D --> D2[main · Main Content]
+    D --> D3[footer · Page Footer]
+    D2 --> E[HTML5 Elements]
+    E --> E1[section · Sections]
+    E --> E2[article · Articles]
+    E --> E3[table · Tables]
+    E --> E4[ol · ul · Lists]
+```
 
 ![Architecture Diagram](assets/diagrams/architecture_diagram.png)
 
